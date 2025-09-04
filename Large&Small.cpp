@@ -6,6 +6,9 @@ int  main()
     scanf("%d %d",&a,&b);
     if(a>b)
         printf("Larger among the 2 is: %d \n Smaller among 2 is: %d \n",a,b);
+       else if(a==b)
+            printf("both are equal %d = %d",a,b);
     else
-        printf("Larger among the 2 is: %d \n Smaller among 2 is: %d \n",b,a);
+            printf("Larger among the 2 is: %d \n Smaller among 2 is: %d \n",b,a);
+
 }
